@@ -1,0 +1,27 @@
+
+body {
+    background-color: mediumslateblue;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 300px;
+    margin: 100px auto;
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+button {
+    margin-top: 16px;
+}
+.link {
+    text-align: center;
+    font-size: 14px;
+}
+.link a {
+    color: inherit;
+    font-weight: bold;
+}
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: inherit;
+    resize: vertical;
+}
+body {
+    background-color: #f3e8ff;
+    color: #333333;
+}
+h1 {
+    color: #6b21a8;
+}
+button {
+    background-color: #6b21a8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+}

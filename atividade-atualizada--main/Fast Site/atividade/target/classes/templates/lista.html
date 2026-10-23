@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Yasmin Fernanda</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+<div class="container">
+    <h1>Yasmin Fernanda</h1>
+    <h2>Cadastros</h2>
+    <ul>
+        <li th:each="c : ${lista}">
+            <a th:href="@{/ver(id=${c.id})}" th:text="${c.nome}"></a>
+        </li>
+    </ul>
+    <a href="/Fast%20Site/atividade/src/main/resources/templates/cadastro.html">Novo cadastro</a>
+</div>
+</body>
+</html>
